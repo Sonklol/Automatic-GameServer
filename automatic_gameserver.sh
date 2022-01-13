@@ -166,14 +166,14 @@ if [ $(id -u) = 0 ]; then
                                                         read bdlectura
                                                         if [ $bdlectura = "S" -o $bdlectura = "s" ]; then
                                                                 # Crear un nuevo usuario con privilegios y contraseña para MYSQL
-                                                                DB_ROOT=""
+                                                                DB_ROOT="root"
                                                                 DB_ROOT_PASS=""
                                                                 DB_NAME="phpmyadmin"
                                                                 DB_USER=""
                                                                 DB_PASS=""
 
                                                                 # Recogemos el input del usuario
-                                                                read -e -p " + Usuario root del servidor mysql: " DB_ROOT
+                                                                #read -e -p " + Usuario root del servidor mysql: " DB_ROOT
                                                                 read -e -s -p " + Contraseña root para el servidor mysql: " DB_ROOT_PASS; echo
                                                                 #read -e -p " + Nombre de la base de datos (sin espacios ni caracteres especiales): " DB_NAME
                                                                 read -e -p " + Nombre del nuevo usuario mysql (o uno ya existente): " DB_USER
@@ -418,14 +418,14 @@ if [ $(id -u) = 0 ]; then
                                                         read bdlectura
                                                         if [ $bdlectura = "S" -o $bdlectura = "s" ]; then
                                                                 # Crear un nuevo usuario con privilegios y contraseña para MYSQL
-                                                                DB_ROOT=""
+                                                                DB_ROOT="root"
                                                                 DB_ROOT_PASS=""
                                                                 DB_NAME="phpmyadmin"
                                                                 DB_USER=""
                                                                 DB_PASS=""
 
                                                                 # Recogemos el input del usuario
-                                                                read -e -p " + Usuario root del servidor mysql: " DB_ROOT
+                                                                #read -e -p " + Usuario root del servidor mysql: " DB_ROOT
                                                                 read -e -s -p " + Contraseña root para el servidor mysql: " DB_ROOT_PASS; echo
                                                                 #read -e -p " + Nombre de la base de datos (sin espacios ni caracteres especiales): " DB_NAME
                                                                 read -e -p " + Nombre del nuevo usuario mysql (o uno ya existente): " DB_USER
@@ -655,14 +655,14 @@ if [ $(id -u) = 0 ]; then
                                                         cd pufferpanel
                                                         chmod +x pufferpanel
                                                         # Crear un nuevo usuario con privilegios y contraseña para MYSQL
-                                                        DB_ROOT=""
+                                                        DB_ROOT="root"
                                                         DB_ROOT_PASS=""
                                                         DB_NAME="phpmyadmin"
                                                         DB_USER=""
                                                         DB_PASS=""
 
                                                         # Recogemos el input del usuario
-                                                        read -e -p " + Usuario root del servidor mysql: " DB_ROOT
+                                                        #read -e -p " + Usuario root del servidor mysql: " DB_ROOT
                                                         read -e -s -p " + Contraseña root para el servidor mysql: " DB_ROOT_PASS; echo
                                                         #read -e -p " + Nombre de la base de datos (sin espacios ni caracteres especiales): " DB_NAME
                                                         read -e -p " + Nombre del nuevo usuario mysql (o uno ya existente): " DB_USER
@@ -788,14 +788,14 @@ if [ $(id -u) = 0 ]; then
                                 ;;
 
                         3)      # Crear un nuevo usuario con privilegios y contraseña para MYSQL
-                                DB_ROOT=""
+                                DB_ROOT="root"
                                 DB_ROOT_PASS=""
                                 DB_NAME="phpmyadmin"
                                 DB_USER=""
                                 DB_PASS=""
 
                                 # Recogemos el input del usuario
-                                read -e -p " + Usuario root del servidor mysql: " DB_ROOT
+                                #read -e -p " + Usuario root del servidor mysql: " DB_ROOT
                                 read -e -s -p " + Contraseña root para el servidor mysql: " DB_ROOT_PASS; echo
                                 #read -e -p " + Nombre de la base de datos (sin espacios ni caracteres especiales): " DB_NAME
                                 read -e -p " + Nombre del nuevo usuario mysql (o uno ya existente): " DB_USER
