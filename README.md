@@ -5,7 +5,7 @@ Tiene varias utilidades para hacer más seguro tu servidor y más fácil la inst
 <br>
 
 <div align="center">
-<img src=""/>
+<img src="https://github.com/Sonklol/Automatic-GameServer/blob/main/cap.png?raw=true"/>
 </div>
 
 ## REQUISITOS Y USO 📚
