@@ -7,6 +7,9 @@ Tiene varias utilidades para hacer más seguro tu servidor y más fácil la inst
 <div align="center">
 <img src="https://github.com/Sonklol/Automatic-GameServer/blob/main/cap.png?raw=true"/>
 </div>
+<div align="center">
+<img src="https://github.com/Sonklol/Automatic-GameServer/blob/main/cap2.png?raw=true"/>
+</div>
 
 ## REQUISITOS Y USO 📚
 Para iniciar este recurso necesitarás:
