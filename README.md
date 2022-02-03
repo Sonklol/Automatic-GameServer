@@ -21,5 +21,5 @@ Para iniciar este recurso necesitarás:
 # ¡PARA EJECUTAR! 🚀
 Llevarás todos los recursos a una carpeta sin borrar ninguno.
 $ chmod +x automatic_gameserver.sh
-$ .\automatic_gameserver.sh
+$ ./automatic_gameserver.sh
 ```
