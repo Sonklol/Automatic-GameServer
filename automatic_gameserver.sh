@@ -181,7 +181,7 @@ if [ $(id -u) = 0 ]; then
                                                                 echo 
                                                                 echo
                                                                 # Creamos el nuevo usuario con privilegios
-                                                                mysql -u ${DB_ROOT} -p${DB_ROOT_PASS} -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED BY '${DB_PASS}'; GRANT ALL PRIVILEGES ON * . * TO '${DB_USER}'@'localhost' WITH GRANT OPTION;"
+                                                                mysql -u ${DB_ROOT} -p${DB_ROOT_PASS} -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED WITH caching_sha2_password BY '${DB_PASS}'; GRANT ALL PRIVILEGES ON * . * TO '${DB_USER}'@'localhost' WITH GRANT OPTION;"
 
                                                                 # Comprobamos errores
                                                                 if [ $? == 0 ]; then
@@ -433,7 +433,7 @@ if [ $(id -u) = 0 ]; then
                                                                 echo 
                                                                 echo
                                                                 # Creamos el nuevo usuario con privilegios
-                                                                mysql -u ${DB_ROOT} -p${DB_ROOT_PASS} -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED BY '${DB_PASS}'; GRANT ALL PRIVILEGES ON * . * TO '${DB_USER}'@'localhost' WITH GRANT OPTION;"
+                                                                mysql -u ${DB_ROOT} -p${DB_ROOT_PASS} -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED WITH caching_sha2_password BY '${DB_PASS}'; GRANT ALL PRIVILEGES ON * . * TO '${DB_USER}'@'localhost' WITH GRANT OPTION;"
 
                                                                 # Comprobamos errores
                                                                 if [ $? == 0 ]; then
@@ -670,7 +670,7 @@ if [ $(id -u) = 0 ]; then
                                                         echo 
                                                         echo
                                                         # Creamos el nuevo usuario con privilegios
-                                                        mysql -u ${DB_ROOT} -p${DB_ROOT_PASS} -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED BY '${DB_PASS}'; GRANT ALL PRIVILEGES ON * . * TO '${DB_USER}'@'localhost' WITH GRANT OPTION;"
+                                                        mysql -u ${DB_ROOT} -p${DB_ROOT_PASS} -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED WITH caching_sha2_password BY '${DB_PASS}'; GRANT ALL PRIVILEGES ON * . * TO '${DB_USER}'@'localhost' WITH GRANT OPTION;"
 
                                                         # Comprobamos errores
                                                         if [ $? == 0 ]; then
@@ -803,7 +803,7 @@ if [ $(id -u) = 0 ]; then
                                 echo 
                                 echo
                                 # Creamos el nuevo usuario con privilegios
-                                mysql -u ${DB_ROOT} -p${DB_ROOT_PASS} -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED BY '${DB_PASS}'; GRANT ALL PRIVILEGES ON * . * TO '${DB_USER}'@'localhost' WITH GRANT OPTION;"
+                                mysql -u ${DB_ROOT} -p${DB_ROOT_PASS} -e "CREATE USER '${DB_USER}'@'localhost' IDENTIFIED WITH caching_sha2_password BY '${DB_PASS}'; GRANT ALL PRIVILEGES ON * . * TO '${DB_USER}'@'localhost' WITH GRANT OPTION;"
 
                                 # Comprobamos errores
                                 if [ $? == 0 ]; then
