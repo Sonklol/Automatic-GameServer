@@ -13,7 +13,7 @@ Tiene varias utilidades para hacer más seguro tu servidor y más fácil la inst
 
 ## REQUISITOS Y USO 📚
 Para iniciar este recurso necesitarás:
-- Linux (para Ubuntu solo 20 o superior)
+- Linux (para Ubuntu 20 o superior)
 - Permisos root (IMPORTANTE PARA screen)
 <br>
 
